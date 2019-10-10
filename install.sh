@@ -19,6 +19,7 @@ chsh -s $(which zsh)
 
 # Create a Sites directory
 # This is a default directory for macOS user accounts but doesn't comes pre-installed
+mkdir $HOME/Projects
 mkdir $HOME/Sites
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
@@ -28,9 +29,10 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions
+
 # Set macOS preferences
 # We will run this last because this will reload the shell
 source .macos
-
-# Install newest LTS official release of Node
-n lts
