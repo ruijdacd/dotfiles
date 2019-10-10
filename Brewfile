@@ -30,13 +30,17 @@ cask 'aerial'
 cask 'atom'
 cask 'brave-browser'
 cask 'caffeine'
+cask 'dash'
 cask 'docker'
 cask 'firefox'
 cask 'github'
 cask 'google-chrome'
+cask 'hyper'
 cask 'insomnia'
+cask 'rocket'
 cask 'safari-technology-preview'
 cask 'slack'
+cask 'spectacle'
 cask 'visual-studio-code'
 
 # Fonts
@@ -52,3 +56,4 @@ cask 'font-source-serif-pro'
 mas '1Password', id: 1333542190
 mas 'Keynote', id: 409183694
 mas 'Spark', id: 1176895641
+mas 'ToothFairy', id: 1191449274
