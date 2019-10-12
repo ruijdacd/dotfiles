@@ -30,10 +30,10 @@ cask 'spectacle'
 cask 'visual-studio-code'
 
 # Mac App Store
-mas '1Password', id: 1333542190
+mas '1Password 7', id: 1333542190
 mas 'Keynote', id: 409183694
 mas 'Jira', id: 1475897096
-mas 'Spark', id: 1176895641
+mas 'Spark - Email App by Readdle', id: 1176895641
 mas 'Telegram', id: 747648890
 mas 'ToothFairy', id: 1191449274
 mas 'Twitter', id: 1482454543
