@@ -32,7 +32,7 @@ If you did all of the above you may now follow these install instructions to set
 5. Clone this repo to `~/.dotfiles`
 6. Append `/usr/local/bin/zsh` to the end of your `/etc/shells` file
 7. Run `install.sh` to start the installation
-8. Run `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions && git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions && git clone git@github.com:igoradamenko/npm.plugin.zsh.git ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/npm`
+8. Run `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions && git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/zsh-completions && git clone git@github.com:igoradamenko/npm.plugin.zsh.git ${ZSH_CUSTOM:=~/.oh-my-zsh/custom}/plugins/npm && git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/plugins/you-should-use`
 9. Restart your computer to finalize the process
 
 Your Mac is now ready to use!
